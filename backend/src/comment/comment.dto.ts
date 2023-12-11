@@ -4,7 +4,4 @@ import { InputType, Field, Int } from '@nestjs/graphql';
 export class CommentCreateInput {
   @Field()
   text: string;
-
-  @Field()
-  tex2t: string;
 }
